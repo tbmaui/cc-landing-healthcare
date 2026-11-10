@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" width="480" height="400" fill="none" stroke-linecap="round" stroke-linejoin="round"><!-- healthcare: clipboard with medical cross and checklist, stethoscope -->
+<!-- clipboard -->
+<g stroke="#466359" stroke-width="2.4">
+  <rect x="120" y="60" width="210" height="290" fill="#FFFFFF"/>
+  <path d="M185 46h80v32h-80z" fill="#F0F4F2"/>
+</g>
+<!-- medical cross -->
+<path d="M207 106h36v26h26v36h-26v26h-36v-26h-26v-36h26z" fill="#F0F4F2" stroke="#6A9082" stroke-width="2.4"/>
+<!-- checklist -->
+<g stroke="#6A9082" stroke-width="2.2">
+  <path d="M154 238l8 8 14-16M154 278l8 8 14-16M154 318l8 8 14-16"/>
+  <path d="M196 240h104M196 280h88M196 320h96"/>
+</g>
+<path d="M154 238l8 8 14-16" stroke="#F36334" stroke-width="2.6"/>
+<!-- stethoscope -->
+<g stroke="#466359" stroke-width="2.6">
+  <path d="M422 70v70a40 40 0 0 1-80 0V70"/>
+  <path d="M332 66h20M412 66h20"/>
+  <path d="M382 180v92"/>
+</g>
+<circle cx="382" cy="292" r="20" fill="#FFFFFF" stroke="#466359" stroke-width="2.6"/>
+<circle cx="382" cy="292" r="8" fill="#F36334" stroke="none"/>
+<!-- base line -->
+<path d="M70 370h360" stroke="#6A9082" stroke-width="1.6"/></svg>
