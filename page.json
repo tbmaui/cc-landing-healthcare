@@ -1,0 +1,14 @@
+{
+  "page": "Healthcare",
+  "repository": "tbmaui/cc-landing-healthcare",
+  "source_file": "CC Healthcare Page.html",
+  "source_sha256": "2996686be2ae220f53e633ca53f02d1f6c5cecde2b34079fa9bf580b601a9bbd",
+  "wordpress_pattern": "cc-modern/page-industry-healthcare",
+  "wordpress_status": "validated",
+  "theme_dependency": {
+    "repository": "tbmaui/complete-controller-modern-theme",
+    "minimum_reviewed_version": "1.3.13"
+  },
+  "review_date": "2026-11-10",
+  "prototype_repository": "https://github.com/tbmaui/cc-landing-page_Healthcare"
+}
