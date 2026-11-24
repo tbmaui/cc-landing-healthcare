@@ -184,9 +184,7 @@
 
 <!-- Left: Medical Chart / Clipboard (x=35 to 225) -->
 <g stroke="#466359" stroke-width="2.4">
-  <!-- Clipboard board -->
   <rect x="40" y="55" width="185" height="295" rx="6" fill="#FFFFFF"/>
-  <!-- Clipboard clamp -->
   <rect x="90" y="42" width="85" height="26" rx="4" fill="#F0F4F2"/>
   <circle cx="132.5" cy="55" r="4" fill="#FFFFFF"/>
 </g>
@@ -208,52 +206,35 @@
 
 <!-- Ledger / Reconciliation Checklist rows -->
 <g stroke="#6A9082" stroke-width="2.0">
-  <!-- Checkmark 1 -->
   <path d="M60 205l5 5 10-12" stroke="#466359" stroke-width="2.2"/>
   <line x1="88" y1="205" x2="195" y2="205"/>
-  <!-- Checkmark 2 -->
   <path d="M60 240l5 5 10-12" stroke="#466359" stroke-width="2.2"/>
   <line x1="88" y1="240" x2="180" y2="240"/>
-  <!-- Checkmark 3 -->
   <path d="M60 275l5 5 10-12" stroke="#F36334" stroke-width="2.4"/>
   <line x1="88" y1="275" x2="195" y2="275"/>
-  <!-- Checkmark 4 -->
   <path d="M60 310l5 5 10-12" stroke="#466359" stroke-width="2.2"/>
   <line x1="88" y1="310" x2="165" y2="310"/>
 </g>
 
 <!-- Right: Substantial Dual-Tube Stethoscope (x=280 to 455) -->
-<!-- Generous 55px breathing room from the chart! -->
 <g stroke="#466359" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Binaural Earpieces (metal tubes at top) -->
   <g stroke-width="2.4">
-    <!-- Left eartip & tube -->
     <circle cx="330" cy="50" r="5" fill="#466359"/>
     <path d="M330 55v35c0 22 18 36 38 42"/>
-    <!-- Right eartip & tube -->
     <circle cx="420" cy="50" r="5" fill="#466359"/>
     <path d="M420 55v35c0 22-18 36-38 42"/>
-    <!-- Binaural tension spring brace -->
     <path d="M332 82c20-6 66-6 86 0" stroke="#6A9082" stroke-width="1.8"/>
   </g>
 
-  <!-- Y-Connector yoke -->
   <path d="M362 130h12v14h-12z" fill="#FFFFFF" stroke="#466359" stroke-width="2.2"/>
 
-  <!-- Substantial, thick flexible tubing with elegant loop -->
-  <!-- Outer stroke for tube body -->
   <path d="M368 144v30c0 40 50 48 50 90 0 46-42 66-70 66-32 0-52-24-52-52 0-36 28-54 56-54 34 0 54 22 54 50" 
         stroke="#466359" stroke-width="3.4" fill="none"/>
   
-  <!-- Chest Piece (Diaphragm & Bell) -->
   <g transform="translate(406, 274)">
-    <!-- Stem -->
     <path d="M0 0h12" stroke="#466359" stroke-width="3.2"/>
-    <!-- Outer rim -->
     <circle cx="28" cy="0" r="24" fill="#FFFFFF" stroke="#466359" stroke-width="2.6"/>
-    <!-- Inner diaphragm ring -->
     <circle cx="28" cy="0" r="15" fill="#F0F4F2" stroke="#6A9082" stroke-width="1.8"/>
-    <!-- Orange accent center core -->
     <circle cx="28" cy="0" r="7" fill="#F36334" stroke="none"/>
   </g>
 </g>
